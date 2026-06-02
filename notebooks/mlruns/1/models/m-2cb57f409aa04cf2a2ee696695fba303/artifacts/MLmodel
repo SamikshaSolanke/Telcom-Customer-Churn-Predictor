@@ -1,0 +1,22 @@
+artifact_path: /Users/samikshasolanke/Desktop/Telcom-Customer-Churn-Predictor/notebooks/mlruns/1/models/m-2cb57f409aa04cf2a2ee696695fba303/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.2
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.13.0
+model_id: m-2cb57f409aa04cf2a2ee696695fba303
+model_size_bytes: 220376
+model_uuid: m-2cb57f409aa04cf2a2ee696695fba303
+prompts: null
+run_id: b87c6b44dfb04858a1900cfe88ac1f94
+utc_time_created: '2026-06-02 10:23:14.239472'
