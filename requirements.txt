@@ -7,5 +7,10 @@ uvicorn
 pydantic
 python-dotenv
 joblib
-great-expectations
+great_expectations==0.15.50
 pytest
+posthog
+xgboost
+optuna
+gradio
+setuptools<70

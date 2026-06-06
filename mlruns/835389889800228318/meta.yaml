@@ -1,0 +1,9 @@
+artifact_location: file:///Users/samikshasolanke/Desktop/Telcom-Customer-Churn-Predictor/mlruns/835389889800228318
+creation_time: 1780737290795
+effective_trace_archival_retention: null
+experiment_id: '835389889800228318'
+last_update_time: 1780737290795
+lifecycle_stage: active
+name: Telco Churn
+trace_location: null
+workspace: default

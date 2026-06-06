@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/samikshasolanke/Desktop/Telcom-Customer-Churn-Predictor/mlruns/835389889800228318/ecca39b7f982408abf2c1a45918eb525/artifacts
+end_time: 1780739371531
+entry_point_name: ''
+experiment_id: '835389889800228318'
+lifecycle_stage: active
+run_id: ecca39b7f982408abf2c1a45918eb525
+run_name: fearless-cow-914
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780739368835
+status: 3
+tags: []
+user_id: samikshasolanke

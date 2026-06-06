@@ -1,0 +1,22 @@
+artifact_path: file:///Users/samikshasolanke/Desktop/Telcom-Customer-Churn-Predictor/mlruns/835389889800228318/models/m-f952576391c8434a9f8caae5384afd4b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+mlflow_version: 3.5.1
+model_id: m-f952576391c8434a9f8caae5384afd4b
+model_size_bytes: 1378792
+model_uuid: m-f952576391c8434a9f8caae5384afd4b
+prompts: null
+run_id: ecca39b7f982408abf2c1a45918eb525
+utc_time_created: '2026-06-06 09:49:29.350587'

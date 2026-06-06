@@ -1,0 +1,10 @@
+artifact_location: file:///Users/samikshasolanke/Desktop/Telcom-Customer-Churn-Predictor/mlruns/835389889800228318/models/m-f952576391c8434a9f8caae5384afd4b/artifacts
+creation_timestamp: 1780739369341
+experiment_id: '835389889800228318'
+last_updated_timestamp: 1780739371525
+model_id: m-f952576391c8434a9f8caae5384afd4b
+model_type: null
+name: model
+source_run_id: ecca39b7f982408abf2c1a45918eb525
+status: 2
+status_message: null

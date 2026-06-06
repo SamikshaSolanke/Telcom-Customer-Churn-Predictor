@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/samikshasolanke/Desktop/Telcom-Customer-Churn-Predictor/mlruns/835389889800228318/dc153070447c417289a680269811f127/artifacts
+end_time: 1780740490633
+entry_point_name: ''
+experiment_id: '835389889800228318'
+lifecycle_stage: active
+run_id: dc153070447c417289a680269811f127
+run_name: wistful-seal-448
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780740488115
+status: 3
+tags: []
+user_id: samikshasolanke

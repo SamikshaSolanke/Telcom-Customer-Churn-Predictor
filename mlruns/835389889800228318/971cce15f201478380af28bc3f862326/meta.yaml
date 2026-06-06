@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/samikshasolanke/Desktop/Telcom-Customer-Churn-Predictor/mlruns/835389889800228318/971cce15f201478380af28bc3f862326/artifacts
+end_time: 1780737407182
+entry_point_name: ''
+experiment_id: '835389889800228318'
+lifecycle_stage: active
+run_id: 971cce15f201478380af28bc3f862326
+run_name: gifted-squid-209
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780737407159
+status: 4
+tags: []
+user_id: samikshasolanke

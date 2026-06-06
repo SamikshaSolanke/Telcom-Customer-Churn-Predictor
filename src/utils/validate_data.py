@@ -1,18 +1,24 @@
 import great_expectations as ge
+import pandas as pd
 from typing import Tuple, List
 
 def validate_telco_data(df) -> Tuple[bool, List[str]]:
     print("Starting data validation with Great Expectations...")
     
+    # Ensure TotalCharges is numeric for validation purposes
+    df = df.copy()
+    if "TotalCharges" in df.columns:
+        df["TotalCharges"] = pd.to_numeric(df["TotalCharges"], errors="coerce")
+        
     # Convert pandas DataFrame to Great Expectations Dataset
-    ge_df = ge.dataset.PandasDataset(df)
+    ge_df = ge.from_pandas(df)
     
     # === SCHEMA VALIDATION - ESSENTIAL COLUMNS ===
     print("Validating schema and required columns...")
     
     # Customer identifier must exist (required for business operations)  
-    ge_df.expect_column_to_exist("customerID")
     ge_df.expect_column_values_to_not_be_null("customerID")
+    ge_df.expect_column_values_to_be_in_set("Churn", ["Yes", "No"])
     
     # Core demographic features
     ge_df.expect_column_to_exist("gender") 

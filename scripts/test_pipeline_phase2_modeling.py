@@ -2,10 +2,15 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from xgboost import XGBClassifier
 import optuna
+import sys
+import os
+sys.path.append(os.path.abspath("src"))
+from features.build_features import build_features
 
 print("=== Phase 2: Modeling with XGBoost ===")
 
 df = pd.read_csv("data/processed/telco_churn_processed.csv")
+df = build_features(df, target_col="Churn")
 
 if df["Churn"].dtype == "object":
     df["Churn"] = df["Churn"].str.strip().map({"No": 0, "Yes": 1})

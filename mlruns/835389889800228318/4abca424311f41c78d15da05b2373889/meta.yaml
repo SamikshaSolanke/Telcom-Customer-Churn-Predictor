@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/samikshasolanke/Desktop/Telcom-Customer-Churn-Predictor/mlruns/835389889800228318/4abca424311f41c78d15da05b2373889/artifacts
+end_time: 1780739284209
+entry_point_name: ''
+experiment_id: '835389889800228318'
+lifecycle_stage: active
+run_id: 4abca424311f41c78d15da05b2373889
+run_name: capricious-shark-506
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780739284174
+status: 4
+tags: []
+user_id: samikshasolanke

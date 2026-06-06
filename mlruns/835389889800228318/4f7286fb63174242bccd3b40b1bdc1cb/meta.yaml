@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/samikshasolanke/Desktop/Telcom-Customer-Churn-Predictor/mlruns/835389889800228318/4f7286fb63174242bccd3b40b1bdc1cb/artifacts
+end_time: 1780737572563
+entry_point_name: ''
+experiment_id: '835389889800228318'
+lifecycle_stage: active
+run_id: 4f7286fb63174242bccd3b40b1bdc1cb
+run_name: judicious-vole-61
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780737572537
+status: 4
+tags: []
+user_id: samikshasolanke

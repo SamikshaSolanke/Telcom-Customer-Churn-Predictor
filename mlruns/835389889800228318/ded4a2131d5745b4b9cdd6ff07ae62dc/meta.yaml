@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/samikshasolanke/Desktop/Telcom-Customer-Churn-Predictor/mlruns/835389889800228318/ded4a2131d5745b4b9cdd6ff07ae62dc/artifacts
+end_time: 1780740395710
+entry_point_name: ''
+experiment_id: '835389889800228318'
+lifecycle_stage: active
+run_id: ded4a2131d5745b4b9cdd6ff07ae62dc
+run_name: clean-carp-579
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780740392429
+status: 3
+tags: []
+user_id: samikshasolanke

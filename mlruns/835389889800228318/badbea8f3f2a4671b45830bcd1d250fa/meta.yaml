@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/samikshasolanke/Desktop/Telcom-Customer-Churn-Predictor/mlruns/835389889800228318/badbea8f3f2a4671b45830bcd1d250fa/artifacts
+end_time: 1780739327619
+entry_point_name: ''
+experiment_id: '835389889800228318'
+lifecycle_stage: active
+run_id: badbea8f3f2a4671b45830bcd1d250fa
+run_name: unleashed-moth-363
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780739324873
+status: 3
+tags: []
+user_id: samikshasolanke

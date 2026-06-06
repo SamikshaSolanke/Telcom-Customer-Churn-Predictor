@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/samikshasolanke/Desktop/Telcom-Customer-Churn-Predictor/mlruns/835389889800228318/63109772f16c446b98435b0f44f2280d/artifacts
+end_time: 1780737291071
+entry_point_name: ''
+experiment_id: '835389889800228318'
+lifecycle_stage: active
+run_id: 63109772f16c446b98435b0f44f2280d
+run_name: efficient-sow-67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780737291041
+status: 4
+tags: []
+user_id: samikshasolanke
