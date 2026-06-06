@@ -3,18 +3,21 @@
 An end-to-end Machine Learning system for predicting telecom customer churn using **XGBoost**, **MLflow**, **FastAPI**, **Gradio**, and **Great Expectations**.
 This project demonstrates a production-oriented ML workflow including data validation, feature engineering, experiment tracking, model serving, and interactive deployment.
 
+<img width="1470" height="956" alt="Screenshot 2026-06-06 at 3 56 08 PM" src="https://github.com/user-attachments/assets/ad3fee75-0a00-4833-9bb8-cd6b5a7c154f" />
+
+
 ---
 
 # 🚀 Project Highlights
 
-* ✅ Built a complete ML pipeline from raw CSV ingestion to deployment
-* ✅ Implemented production-grade data validation with Great Expectations
-* ✅ Trained an optimized XGBoost churn classifier with ROC-AUC of **0.837**
-* ✅ Achieved **82.1% recall** for churn detection
-* ✅ Integrated MLflow for experiment tracking and model artifact management
-* ✅ Developed real-time prediction APIs using FastAPI
-* ✅ Created an interactive Gradio frontend for business users
-* ✅ Structured codebase using modular MLOps-style architecture
+* Built a complete ML pipeline from raw CSV ingestion to deployment
+* Implemented production-grade data validation with Great Expectations
+* Trained an optimized XGBoost churn classifier with ROC-AUC of **0.837**
+* Achieved **82.1% recall** for churn detection
+* Integrated MLflow for experiment tracking and model artifact management
+* Developed real-time prediction APIs using FastAPI
+* Created an interactive Gradio frontend for business users
+* Structured codebase using modular MLOps-style architecture
 
 ---
 
@@ -324,64 +327,6 @@ Built an interactive UI for non-technical users:
 
 ---
 
-# 🛠️ Installation
-
-## Clone Repository
-
-```bash
-git clone <repository-url>
-cd Telcom-Customer-Churn-Predictor
-```
-
-## Create Virtual Environment
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# ▶️ Run Training Pipeline
-
-```bash
-python3 scripts/run_pipeline.py \
---input data/raw_data/og.csv \
---target Churn
-```
-
----
-
-# ▶️ Run FastAPI Server
-
-```bash
-python3 -m uvicorn src.app.main:app --reload
-```
-
----
-
-# 🌍 Access Application
-
-### FastAPI Swagger Docs
-
-```text
-http://127.0.0.1:8000/docs
-```
-
-### Gradio UI
-
-```text
-http://127.0.0.1:8000/ui
-```
-
----
-
 # 🔥 Key Engineering Learnings
 
 * Built production-grade ML architecture
@@ -390,27 +335,3 @@ http://127.0.0.1:8000/ui
 * Integrated ML experiment management workflows
 * Developed deployable inference APIs
 * Structured scalable ML project directories
-
----
-
-# 📌 Future Improvements
-
-* Docker containerization
-* CI/CD integration using GitHub Actions
-* Kubernetes deployment
-* SHAP explainability integration
-* Real-time streaming predictions
-* Drift monitoring and retraining pipelines
-
----
-
-# 👩💻 Author
-
-**Samiksha Solanke**
-
-Aspiring Machine Learning Engineer focused on:
-
-* Applied Machine Learning
-* MLOps
-* Backend AI Systems
-* Production ML Deployment
